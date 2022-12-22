@@ -1,0 +1,31 @@
+{
+	"name": "@nestjs-logger/cloudwatch",
+	"version": "1.0.0",
+	"description": "NestJS AWS CloudWatch logger",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nestjs-logger/cloudwatch.git"
+	},
+	"keywords": [
+		"nestjs",
+		"logging",
+		"logger"
+	],
+	"author": "John Michael Manlupig",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nestjs-logger/cloudwatch/issues"
+	},
+	"homepage": "https://github.com/nestjs-logger/cloudwatch#readme",
+	"dependencies": {
+		"@nestjs/common": "^9.2.1",
+		"aws-sdk": "^2.1281.0",
+		"dayjs": "^1.11.7"
+	}
+}
+
